@@ -1,3 +1,25 @@
+<div style="background-color: #0D1117; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <!-- Monogram Badge -->
+  <div style="width: 64px; height: 64px; border: 2px solid #00F5A0; display: flex; align-items: center; justify-content: center; margin-bottom: 50px; box-shadow: 0 0 10px rgba(0, 245, 160, 0.3);">
+    <span style="color: #00F5A0; font-weight: bold; font-size: 24px; letter-spacing: 2px;">AK</span>
+  </div>
+  
+  <!-- Main Hero Card -->
+  <div style="max-width: 1000px; width: 100%; background: linear-gradient(to bottom, #0F141B, #0B0F14); border: 1px solid rgba(0, 245, 160, 0.15); padding: 70px 80px; text-align: center; box-shadow: 0 0 30px rgba(0, 245, 160, 0.15); border-radius: 8px;">
+    <!-- Main Name -->
+    <h1 style="color: #E6E6E6; font-size: 4rem; font-weight: 900; margin: 0 0 20px 0; letter-spacing: -2px; line-height: 1;">ALEX KRAVCHENKO</h1>
+    
+    <!-- Subtitle -->
+    <p style="color: #00F5A0; font-size: 1.2rem; font-weight: 500; margin: 0 0 24px 0; letter-spacing: 3px;">WEB • MOBILE • SECURITY</p>
+    
+    <!-- Tagline -->
+    <p style="color: #9CA3AF; font-size: 1rem; font-weight: 400; margin: 0 0 30px 0; line-height: 1.5;">"Building secure, scalable systems. Breaking what doesn't work."</p>
+    
+    <!-- Status Line -->
+    <p style="color: #00F5A0; font-family: 'Courier New', monospace; font-size: 0.9rem; font-weight: 400; margin: 0; letter-spacing: 1px;">[ _ AVAILABLE FOR PROJECTS ]</p>
+  </div>
+</div>
+
 <div align="center">
   <img height="80" src="https://i.ibb.co/HBPvDw7/logo.png"  />
 </div>
