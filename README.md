@@ -1,24 +1,90 @@
-<div style="background-color: #0D1117; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-  <!-- Monogram Badge -->
-  <div style="width: 64px; height: 64px; border: 2px solid #00F5A0; display: flex; align-items: center; justify-content: center; margin-bottom: 50px; box-shadow: 0 0 10px rgba(0, 245, 160, 0.3);">
-    <span style="color: #00F5A0; font-weight: bold; font-size: 24px; letter-spacing: 2px;">AK</span>
-  </div>
-  
-  <!-- Main Hero Card -->
-  <div style="max-width: 1000px; width: 100%; background: linear-gradient(to bottom, #0F141B, #0B0F14); border: 1px solid rgba(0, 245, 160, 0.15); padding: 70px 80px; text-align: center; box-shadow: 0 0 30px rgba(0, 245, 160, 0.15); border-radius: 8px;">
-    <!-- Main Name -->
-    <h1 style="color: #E6E6E6; font-size: 4rem; font-weight: 900; margin: 0 0 20px 0; letter-spacing: -2px; line-height: 1;">ALEX KRAVCHENKO</h1>
-    
-    <!-- Subtitle -->
-    <p style="color: #00F5A0; font-size: 1.2rem; font-weight: 500; margin: 0 0 24px 0; letter-spacing: 3px;">WEB • MOBILE • SECURITY</p>
-    
-    <!-- Tagline -->
-    <p style="color: #9CA3AF; font-size: 1rem; font-weight: 400; margin: 0 0 30px 0; line-height: 1.5;">"Building secure, scalable systems. Breaking what doesn't work."</p>
-    
-    <!-- Status Line -->
-    <p style="color: #00F5A0; font-family: 'Courier New', monospace; font-size: 0.9rem; font-weight: 400; margin: 0; letter-spacing: 1px;">[ _ AVAILABLE FOR PROJECTS ]</p>
-  </div>
-</div>
+<p align="center">
+
+<svg width="1000" height="520" viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1000" height="520" fill="#0D1117"/>
+
+  <!-- Glow Filter -->
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="15" flood-color="#00F5A0" flood-opacity="0.15"/>
+    </filter>
+
+    <!-- Card Gradient -->
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F141B"/>
+      <stop offset="100%" stop-color="#0B0F14"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Monogram Box -->
+  <rect x="468" y="40" width="64" height="64"
+        fill="none"
+        stroke="#00F5A0"
+        stroke-width="2"/>
+
+  <text x="500" y="80"
+        text-anchor="middle"
+        fill="#00F5A0"
+        font-size="24"
+        font-weight="700"
+        letter-spacing="2"
+        font-family="Segoe UI, Arial, sans-serif">
+    AK
+  </text>
+
+  <!-- Main Card -->
+  <rect x="100" y="140" width="800" height="320"
+        rx="8"
+        fill="url(#cardGradient)"
+        stroke="rgba(0,245,160,0.15)"
+        filter="url(#glow)"/>
+
+  <!-- Name -->
+  <text x="500" y="240"
+        text-anchor="middle"
+        fill="#E6E6E6"
+        font-size="64"
+        font-weight="900"
+        letter-spacing="-2"
+        font-family="Segoe UI, Arial, sans-serif">
+    ALEX KRAVCHENKO
+  </text>
+
+  <!-- Subtitle -->
+  <text x="500" y="285"
+        text-anchor="middle"
+        fill="#00F5A0"
+        font-size="18"
+        letter-spacing="3"
+        font-family="Segoe UI, Arial, sans-serif">
+    WEB • MOBILE • SECURITY
+  </text>
+
+  <!-- Tagline -->
+  <text x="500" y="325"
+        text-anchor="middle"
+        fill="#9CA3AF"
+        font-size="16"
+        font-family="Segoe UI, Arial, sans-serif">
+    Building secure, scalable systems. Breaking what doesn't work.
+  </text>
+
+  <!-- Status Line -->
+  <text x="500" y="365"
+        text-anchor="middle"
+        fill="#00F5A0"
+        font-size="14"
+        letter-spacing="1"
+        font-family="Courier New, monospace">
+    [ _ AVAILABLE FOR PROJECTS ]
+  </text>
+
+</svg>
+
+</p>
+
 
 <div align="center">
   <img height="80" src="https://i.ibb.co/HBPvDw7/logo.png"  />
